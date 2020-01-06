@@ -95,7 +95,7 @@ Finance Tracker Application
 *** This feature can be triggered using the `[fuchsia]#theme#` command. Triggering this command will result in
 the `[fuchsia]#UI#` component changing its stylesheet to fit the pre-set themes indicated by the user.
 
-* `[fuchsia]#BudgetPanel#` [teal]#*of UI*#
+* [teal]#*BudgetPanel of UI*#
 ** [red]#*_What it does_*:# Allows user to see the total spending against total budget so far in a visual progress bar.
 Depending on how close the total spending is to the total budget, the colour of the bar will change accordingly.
 ** [red]#*_Justification_*:# This feature will allows users to have a visual view of their total spending against their set

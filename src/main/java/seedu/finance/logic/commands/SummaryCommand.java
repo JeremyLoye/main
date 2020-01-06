@@ -125,7 +125,7 @@ public class SummaryCommand extends Command {
         if (period == SummaryPeriod.DAY) {
             date = LocalDate.now().minusDays((long) periodAmount);
         } else {
-            date = LocalDate.now().minusDays((long) periodAmount);
+            date = LocalDate.now().minusMonths((long) periodAmount);
         }
         return e -> e.getDate().isAfter(date);
     }
